@@ -1,0 +1,17 @@
+Food for thought
+Notes:
+a. a pointer is a var that may contain the address of another var
+  it's denoted by * (values of object pointed to) or & (memory address of the passed operand)
+b. A reference variable is an alias, that is, another name for an already existing variable.
+c. enums are user-defined set of variables
+d. An array is a contiguous collection of vars of omogeneous data type
+e. A structure on the other hand (like tuples in other langs), is a collection of heterogenous data types
+   - they don't necessarily have to be in a contiguous form
+f. namespace: controls the visibility of names
+g. list initialization denoted by "{}": prohibits implicit narrowing conversions
+h. Deduction of type initializer denoted by "auto": (var in Java) infers the data type
+
+Questions
+1. If both int and long int hold 4 bytes of data, what's the difference b/n them?
+2. In C++ variables are also referred to as objects, and types are referred to as classes. Why so?
+

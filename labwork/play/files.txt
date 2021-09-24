@@ -1,0 +1,10 @@
+IChing
+README
+README2
+beers
+duplist
+files.txt
+gen
+pubs
+story1
+userlist

@@ -1,0 +1,465 @@
+    1  passwd
+    2  ls
+    3  mkdir lab && cd lab
+    4  wget https://turntabl.semlr.com/publish/o/bc91288e3c604f2087d191c0789143f2/source
+    5  sudo wget https://turntabl.semlr.com/publish/o/bc91288e3c604f2087d191c0789143f2/source
+    6  Bright.A12
+    7  sudo wget https://turntabl.semlr.com/publish/o/bc91288e3c604f2087d191c0789143f2/source
+    8  exit
+    9  eco $SHELL
+   10  ecHo $SHELL
+   11  echo $SHELL
+   12  man wc
+   13  ps
+   14  top
+   15  man ps
+   16  htop
+   17  pwd
+   18  cd
+   19  /
+   20  l
+   21  pwd
+   22  mkdir unix
+   23  mkdir unix/report/style
+   24  cd unix/
+   25  mkdir report/style
+   26  mkdir ./report/style
+   27  ls
+   28  mkdir report
+   29  mkdir report/style
+   30  mkdir george
+   31  cd report/style/
+   32  cd mkdir george
+   33  mkdir george
+   34  cd ..
+   35  mkdir  george
+   36  cd cd ./george/
+   37  cd
+   38  ls
+   39  cd unix/
+   40  rmdir george/
+   41  cd
+   42  cd unix/
+   43  mkdir report/style
+   44  cd report/
+   45  cd style
+   46  cd
+   47  cd unix/
+   48  cd report/style/
+   49  cd ./george/
+   50  cd ..
+   51  cd text
+   52  mkdir text
+   53  cd ./george/
+   54  cd ../text/
+   55  l
+   56  cd
+   57  ls -r
+   58  ls -R
+   59  cd /
+   60  cd /home/bright/
+   61  cd ~
+   62  cd
+   63  echo $SHELL
+   64  cd
+   65  ls -l
+   66  ls -l /home/
+   67  touch {permfile,README,gen,pubs}
+   68  ls
+   69  move {permfile,README,gen,pubs} labwork/
+   70  mv {permfile,README,gen,pubs} labwork/
+   71  ls
+   72  cd labwork/
+   73  l
+   74  mkdir day_2
+   75  mv {permfile,README,gen,pubs} day_2/
+   76  ls day_2/
+   77  ls -l
+   78  sudo chmod 000 README
+   79  chmod 000 README
+   80  l
+   81  cd day_2/
+   82  chmod 000 README
+   83  ls
+   84  ls -l
+   85  chmod +rw gen
+   86  ls -l
+   87  chmod -w gen
+   88  ls -l
+   89  man chmod
+   90  chmod 700 README 
+   91  ls -l
+   92  chmod 400 README 
+   93  ls -l
+   94  cd 
+   95  l
+   96  ls /home/
+   97  cd labwork/day_2/
+   98  ed newfile
+   99  l
+  100  man ed
+  101  info ed
+  102  ed newfile.txt
+  103  ls
+  104  vi
+  105  vi newfile.txt 
+  106  ls -l
+  107  cd
+  108  cd /
+  109  l
+  110  l -li
+  111  l -li home/
+  112  l -ali
+  113  cd
+  114  vi --version | grep vimrc
+  115  ls -l
+  116  cd ~
+  117  ls -ali 
+  118  ls -al
+  119  ls
+  120  vi .viminfo 
+  121  vi -l
+  122  ls -l
+  123  ls -la
+  124  w
+  125  ps
+  126  ps aux
+  127  jobs
+  128  /bin/sleep 3600; echo it will take about an hour &
+  129  (/bin/sleep 3600; echo it will take about an hour) &
+  130  jobs
+  131  fg
+  132  bg
+  133  jobs
+  134  ps
+  135  ps -ef
+  136  nohup /bin/sleep 1000 &
+  137  jobs
+  138  man nohup
+  139  fg
+  140  jobs
+  141  ps -aux
+  142  kill 947
+  143  ps -aux
+  144  ps -9 -aux
+  145  ps 9 -aux
+  146  kill -9 947
+  147  ps
+  148  fg
+  149  jobs
+  150  man ksh
+  151  htop 
+  152  ls
+  153  cd labwork/day_2/
+  154  l
+  155  l -ls
+  156  sudo chmod 000 README
+  157  l
+  158  ls -la
+  159  cat /etc/sudoers
+  160  sudo cat /etc/sudoers
+  161  jobs
+  162  ps -al
+  163  kill -9 943
+  164  jobs
+  165  kill -9 943
+  166  jobs
+  167  ht
+  168  htop 
+  169  kill 9 943
+  170  jobs
+  171  htop 
+  172  jopbs
+  173  jobw
+  174  jobs
+  175  fg
+  176  ls
+  177  jobs
+  178  man at
+  179  l
+  180  touch file.txt
+  181  ls -l
+  182  ls -l file.txt 
+  183  man umask
+  184  umask
+  185  l
+  186  cd ../play/
+  187  l
+  188  ed IChing 
+  189  cat IChing 
+  190  ed IChing 
+  191  man ed
+  192  ed IChing 
+  193  ed IChing cat IChing 
+  194  cat IChing 
+  195  man ed
+  196  ed -p: Iching
+  197  l
+  198  ls -l
+  199  ed IChing 
+  200  ed -p: IChing 
+  201  touch afile
+  202  ed -p: afile
+  203  ls
+  204  vi afile 
+  205  rm afile 
+  206  l
+  207  ed IChing 
+  208  l
+  209  ed README
+  210  exit
+  211  jobs
+  212  fg
+  213  jobs
+  214  exit
+  215  l
+  216  rm lab/
+  217  mrdir lab/
+  218  rmdir lab/
+  219  cd /mnt/c/Users/Training/Documents/labwork/
+  220  ls
+  221  tar xvf Lab-Play-Files.tar 
+  222  date
+  223  ls
+  224  cd play/
+  225  cat README
+  226  cd /etc
+  227  l
+  228  we 
+  229  wc
+  230  man wc
+  231  wc -l
+  232  ls | wc -l
+  233  cd /mnt/c/Users/Training/Documents/labwork/
+  234  ls
+  235  cd play/
+  236  l
+  237  cat > files.txt
+  238  cat files.txt
+  239  ls
+  240  cat files.txt 
+  241  ls
+  242  lls
+  243  ls
+  244  cat files.txt 
+  245  rm files.txt 
+  246  ls > files.txt
+  247  cat files.txt 
+  248  clear
+  249  cd /etc
+  250  ls | wc -b
+  251  man wc
+  252  ls | wc -c
+  253  du
+  254  du ? sort
+  255  du | sort
+  256  sudo du | sort
+  257  man ls
+  258  ls -a
+  259  ls
+  260  ls -l
+  261  ls -al
+  262  ls
+  263  man wc
+  264  wc -c
+  265  ls | wc -c
+  266  ls
+  267  ls -al
+  268  ls -al | sort
+  269  man sort
+  270  man du
+  271  du -ah
+  272  du -ah | sort -n
+  273  du -ah | sort -nr
+  274  du -ah | sort -n
+  275  man ls
+  276  ls -lh
+  277  ls -l
+  278  du -ah | sort -nr
+  279  du -ah | sort -n
+  280  cd /home/bright/
+  281  l
+  282  cd cp /mnt/c/Users/Training/Documents/labwork/ /home/bright/
+  283  cp /mnt/c/Users/Training/Documents/labwork/ /home/bright/
+  284  cp -r  /mnt/c/Users/Training/Documents/labwork/ /home/bright/
+  285  l
+  286  cat
+  287  man cat
+  288  SHELL
+  289  $SHELL
+  290  exit
+  291  htop 
+  292  man kill
+  293  man stop
+  294  exit
+  295  l
+  296  dir
+  297  l
+  298  exit
+  299  exit
+  300  exi
+  301  exity
+  302  exit
+  303  htop 
+  304  l
+  305  exit
+  306  l
+  307  exit
+  308  login
+  309  sudo login
+  310  LS -| exit
+  311  ls
+  312  cd My\ Documents/labwork/
+  313  ls
+  314  cd play/
+  315  l
+  316  ls ?.txt
+  317  ls *.txt
+  318  ls [es].txt
+  319  whoisthat
+  320  more
+  321  man man
+  322  man help
+  323  man ls
+  324  ls
+  325  cd ..
+  326  l
+  327  cd ..
+  328  l
+  329  cd labwork/
+  330  vi files.txt
+  331  fg
+  332  l
+  333  vi files.txt
+  334  exit
+  335  vi
+  336  logout 
+  337  vi
+  338  exit
+  339  vi
+  340  exit
+  341  alias 
+  342  l
+  343  cd Documents/
+  344  l
+  345  cd labwork/
+  346  vi file.txt 
+  347  ls -a | grep vim
+  348  vi test.txt
+  349  man git
+  350  git status
+  351  l
+  352  rm test.txt 
+  353  cat test.txt 
+  354  vi file.txt
+  355  mkdir cpp && mv file.txt ./cpp
+  356  cd cpp && ls
+  357  ls -l
+  358  chmod 755 file.txt 
+  359  ls -l
+  360  chmod 000 file.txt 
+  361  ls -l
+  362  sudo chmod 644 file.txt 
+  363  ls -l
+  364  reboot 
+  365  exit
+  366  cd Documents/labwork/cpp/
+  367  l
+  368  touch ho && ls -l ho
+  369  logout 
+  370  cd Documents/labwork/cpp/
+  371  l
+  372  ls -l file.txt 
+  373  chmod 000 file.txt && ls -l file.txt 
+  374  chmod 000 file.txt 
+  375  ls -l file.txt 
+  376  chmod 744 file.txt 
+  377  ls -l file.txt 
+  378  cp file /home/bright/ && cd /home/bright/ && ls -l file
+  379  cp file.txte /home/bright/ && cd /home/bright/ && ls -l file.txt
+  380  cp file.txt /home/bright/ && cd /home/bright/ && ls -l file.txt
+  381  cd /mnt/c/Users/Training/Documents/labwork/cpp
+  382  ls -l file.txt 
+  383  chmod 000 file.txt 
+  384  ls -l file.txt 
+  385  cd ..
+  386  cd 
+  387  l
+  388  pwd
+  389  mv /mnt/c/Users/Training/Documents/labwork/ labwork/
+  390  l
+  391  cd labwork/ && ls 
+  392  cd labwork/
+  393  ls 
+  394  cd ../..
+  395  l
+  396  cat nohup.out 
+  397  cd labwork/
+  398  mv labwork/ la
+  399  l
+  400  ls -l la/
+  401  rm -fr la/
+  402  l
+  403  mkdir cpp && cd cpp
+  404  vi say_my_name.cpp
+  405  g++ -o say_my_name.cpp hi
+  406  g++ say_my_name.cpp -o hi
+  407  vi say_my_name.cpp
+  408  g++ say_my_name.cpp -o hi
+  409  ./hi 
+  410  vi mean.cpp
+  411  g++ mean.cpp -o mean
+  412  vi mean.cpp
+  413  g++ mean.cpp -o mean
+  414  vi mean.cpp
+  415  g++ mean.cpp -o mean
+  416  vi mean.cpp
+  417  g++ mean.cpp -o mean
+  418  vi mean.cpp
+  419  g++ mean.cpp -o mean
+  420  vi say_my_name.cpp 
+  421  vi mean.cpp 
+  422  g++ mean.cpp -o mean
+  423  ./mean 
+  424  vi mean.cpp 
+  425  g++ mean.cpp -o mean
+  426  ./mean 
+  427  vi even_odd.cpp
+  428  cd
+  429  vi .vimrc 
+  430  vi even_odd.cpp
+  431  ls
+  432  rm even_odd.cpp 
+  433  vi .vimrc 
+  434  cd labwork/cpp/ && vi even_odd.cpp
+  435  l
+  436  vi even_odd.cpp
+  437  vi ~/.vimrc 
+  438  vi even_odd.cpp
+  439  ls
+  440  vi say_my_name.cpp 
+  441  vi mean.cpp 
+  442  ls
+  443  vi say_my_name.cpp 
+  444  g++ say_my_name.cpp -o hi
+  445  sudo apt install gdb
+  446  l
+  447  man g++
+  448  g++ mean.cpp -go mean
+  449  g++ mean.cpp -g -o mean
+  450  man gdb
+  451  gdb mean 
+  452  vi mean.cpp 
+  453  g++ -g -O0 mean.cpp mean
+  454  g++ -g -O0 mean mean.cpp 
+  455  g++ mean.cpp -g -o mean
+  456  g++ mean.cpp -g -O0 -o mean
+  457  man g++
+  458  gcc mean.cpp -g -O0 -o mean
+  459  ls 
+  460  g++ mean.cpp -g -O0 -o mean
+  461  ls
+  462  vi mean.cpp 
+  463  gdb mean
+  464  history
+  465  history > history.txt
